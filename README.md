@@ -1,2 +1,3 @@
 # DevelopmentWebProjects
-This repository is a mistake of me.
+Esse repositório é contem alguns projetos iniciais que desenvolvi dutante o meu aprendizado de desenvolvimento web.
+
