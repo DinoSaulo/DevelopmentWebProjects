@@ -1,0 +1,36 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>HTML table to XLS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <h1>Html table to excel or csv </h1>
+
+    <h2>Open the code and in each of the area spaces insert your table.</h2>
+
+    <p> Test1: <button id="btnExport" onclick="javascript:xport.toXLS('testTable');"> Export to XLS</button> <em>&nbsp;&nbsp;&nbsp;Export the table to XLS with CSV fallback for IE & Edge</em>
+    </p>
+    <br/>
+
+    <table id="testTable" summary="Code page support in different versions of MS Windows." rules="groups" frame="hsides" border="2" class="table table-striped">
+        <caption>CODE-PAGE SUPPORT IN MICROSOFT WINDOWS</caption>
+        <colgroup align="center"></colgroup>
+        <colgroup align="left"></colgroup>
+        <colgroup span="2" align="center"></colgroup>
+        <colgroup span="3" align="center"></colgroup>
+        
+        <thead valign="top">
+            <!-- INSERT HERE THE HEADER OF YOUR PLAN-->
+        </thead>
+        <tbody>
+            <!-- INSERT HERE THE BODY OF YOUR PLAN-->
+        </tbody>
+                
+    </table>
+</body>
+</html>
