@@ -1,0 +1,28 @@
+.container {
+    background-color: #ccc;
+    height: 200px;
+    /*-- Habilitando o flexbox --*/
+    display: flex; 
+    /*-- irá definir o sentido da organização dos boxs --*/
+    flex-direction: column; /*-- row, column, row-reverse, column-reverse --*/
+    /*-- irá definir se ele vai quebrar a linha ou sempre se adaptar a ela --*/
+    flex-wrap: nowrap; /*-- nowrap = Não quebra / wrap = quebra --*/
+    /*-- irá definir o direction e wrap na mesma linha --*/
+    flex-flow: row nowrap;
+    /*-- irá definir os espaços entre os boxes --*/
+    justify-content: center; /*-- flex-start = alinha do início; flexend = Alinha no final --*/
+    /*-- space-btween = espaçamento igual e nada nas bordas; space-arround = espaçamento igual exeto na borda --*/
+    /* Irá definir o alinhamento dos boxes */
+    align-items: center; /*--flex-start, flex-end, center, baseline --*/
+    /* Irá definir o alinhamento dos boxes */
+    align-content: center; /*--flex-start, flex-end, center, space-btween, space-arround --*/
+    
+
+}
+
+.item {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    margin: 5px;
+}
