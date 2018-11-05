@@ -16,8 +16,6 @@
     align-items: center; /*--flex-start, flex-end, center, baseline --*/
     /* Irá definir o alinhamento dos boxes */
     align-content: center; /*--flex-start, flex-end, center, space-btween, space-arround --*/
-    
-
 }
 
 .item {
@@ -25,4 +23,22 @@
     color: #fff;
     padding: 20px;
     margin: 5px;
+    /* Irá definir a proporção da largura dos boxes */
+    flex-grow: 1;
+    /* Irá definir a largura minima dos boxes, é o contrário do grow */
+    flex-shrink: 2;
+    /* Irá definir a largura inicial dos boxes */
+    flex-basis: 300px;
+    /* a junção de todos as outras funções anteriores */
+    flex: 1, 2, 300px;
+}
+
+.article01 {
+    order: 3;
+}
+.article02 {
+    order: 2;
+}
+.article03 {
+    order: 1;
 }
